@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace ScriptureMemorizer
 {
-    class Word
+    public sealed class Word
     {
         private readonly string _text;
         private bool _isHidden;
