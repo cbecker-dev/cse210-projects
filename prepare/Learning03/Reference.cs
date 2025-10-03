@@ -2,7 +2,7 @@ using System;
 
 namespace ScriptureMemorizer
 {
-    class Reference
+    public sealed class Reference
     {
         private readonly string _book;
         private readonly int _chapter;
