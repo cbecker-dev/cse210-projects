@@ -1,9 +1,22 @@
 using System;
 
-class Program
+public class Program
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning05 World!");
+        Square mySquare = new Square("Red", 5);
+
+        Console.WriteLine("Color: " + mySquare.GetColor());
+        Console.WriteLine("Area: " + mySquare.GetArea());
+
+        Rectangle myRectangle = new Rectangle("Yellow", 3, 4);
+
+        Console.WriteLine("Color: " + myRectangle.GetColor());
+        Console.WriteLine("Area: " + myRectangle.GetArea());
+
+        Circle myCircle = new Circle("Blue", 2);
+
+        Console.WriteLine("Color: " + myCircle.GetColor());
+        Console.WriteLine("Area: " + myCircle.GetArea());
     }
 }
