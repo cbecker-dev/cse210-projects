@@ -80,7 +80,7 @@ namespace EternalQuest
                 _goals.Add(new ChecklistGoal(name, desc, points, bonus, total));
             }
 
-            Console.WriteLine("/nGoal created!");
+            Console.WriteLine("\nGoal created!");
         }
 
         private void ListGoals()
