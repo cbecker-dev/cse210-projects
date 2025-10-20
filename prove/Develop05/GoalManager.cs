@@ -25,6 +25,8 @@ namespace EternalQuest
                 Console.WriteLine("6. Exit");
                 Console.Write("\nSelect a choice: ");
 
+                string choice = Console.ReadLine();
+
                 switch (choice)
                 {
                     case "1": CreateGoal(); break;
