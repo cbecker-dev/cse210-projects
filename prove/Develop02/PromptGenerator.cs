@@ -1,5 +1,4 @@
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices;
+using System;
 
 public class PromptGenerator
 {
