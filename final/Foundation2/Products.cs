@@ -1,4 +1,3 @@
-using System.Net.Http.Headers;
 
 public class Product
 {
@@ -10,6 +9,7 @@ public class Product
     public Product(string name, string productId, double pricePerUnit, int quantity)
     {
         _name = name;
+        _productId = productId;
         _pricePerUnit = pricePerUnit;
         _quantity = quantity;
     }
@@ -24,7 +24,7 @@ public class Product
         return _productId;
     }
 
-    public string GetTotalCost()
+    public double GetTotalCost()
     {
         return _pricePerUnit * _quantity;
     }

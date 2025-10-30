@@ -1,10 +1,8 @@
 using System;
-using System.Net.Http.Headers;
-using System.Runtime.InteropServices.Marshalling;
 
 public class Order
 {
-    private List<Product> _products = new List<Products>();
+    private List<Product> _products = new List<Product>();
     private Customer _customer;
 
     public Order(Customer customer)
@@ -12,7 +10,7 @@ public class Order
         _customer = customer;
     }
 
-    public void AddProduct(Product product0)
+    public void AddProduct(Product product)
     {
         _products.Add(product);
     }
